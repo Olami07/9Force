@@ -1,0 +1,8 @@
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/font-awesome/scss/font-awesome.scss"
+
+// Then add additional custom code here

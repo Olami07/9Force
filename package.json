@@ -1,0 +1,41 @@
+{
+  "name": "9force",
+  "version": "1.0.0",
+  "description": "This is an application desigined for 9mobile customer care department to handle all performance and workforce related soltions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootscrap",
+    "9Force",
+    "IPM",
+    "WFM",
+    "Schedulling"
+  ],
+  "author": "Oladada Samson Olamilekan",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "datatables.net-autofill-bs5": "^2.7.0",
+    "datatables.net-autofill-dt": "^2.7.0",
+    "datatables.net-bs5": "^2.0.8",
+    "datatables.net-buttons-bs5": "^3.0.2",
+    "datatables.net-colreorder-bs5": "^2.0.3",
+    "datatables.net-dt": "^2.0.8",
+    "datatables.net-fixedcolumns-bs5": "^5.0.0",
+    "datatables.net-fixedheader-bs5": "^4.0.1",
+    "datatables.net-keytable-bs5": "^2.12.1",
+    "datatables.net-responsive-bs5": "^3.0.2",
+    "datatables.net-rowgroup-bs5": "^1.5.0",
+    "datatables.net-rowreorder-bs5": "^1.5.0",
+    "datatables.net-scroller-bs5": "^2.4.3",
+    "datatables.net-searchbuilder-bs5": "^1.7.1",
+    "datatables.net-searchpanes-bs5": "^2.3.0",
+    "datatables.net-select-bs5": "^2.0.3",
+    "datatables.net-staterestore-bs5": "^1.4.1",
+    "font-awesome": "^4.7.0"
+  }
+}

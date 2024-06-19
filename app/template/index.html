@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="/src/all.min.css" /> -->
+    <link rel="stylesheet" href="/Assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+  </head>
+  <body class="loading">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner-border text-primary" role="status">
+        <!-- <span class="visually-hidden">Loading...</span> -->
+        <img
+          src="/Assets/img/logo3.png"
+          alt="Loading..."
+          width="50"
+          height="50"
+        />
+      </div>
+    </div>
+
+    <!-- Open Wrapper -->
+    <div class="wrapper">
+      <aside id="sidebar">
+        <div class="d-flex">
+          <button id="toggle-btn" type="button">
+            <i class="bi bi-grid-3x2-gap-fill"></i>
+          </button>
+          <div class="sidebar-logo">
+            <a href="#"> 9Force</a>
+          </div>
+        </div>
+        <ul class="sidebar-nav">
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link"
+              ><i class="bi bi-person-fill"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link"
+              ><i class="bi bi-calendar-fill"></i>
+              <span>Task</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a
+              href="#"
+              class="sidebar-link has-dropdown collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#performance"
+              aria-expanded="false"
+              aria-controls="performance"
+            >
+              <i class="bi bi-backpack2-fill"></i>
+              <span>Performance</span>
+            </a>
+            <ul
+              id="performance"
+              class="sidebar-dropdown list-unstyled collapse"
+              data-bs-parent="#sidebar"
+            >
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Weekly Performance</a>
+              </li>
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Monthly Performance</a>
+              </li>
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Quarterly Performance</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link"
+              ><i class="bi bi-flag-fill"></i>
+              <span>Reporting</span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <a
+              href="#"
+              class="sidebar-link has-dropdown collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#auth"
+              aria-expanded="false"
+              aria-controls="auth"
+            >
+              <i class="bi bi-person-circle"></i>
+              <span>Accouts</span>
+            </a>
+            <ul
+              id="auth"
+              class="sidebar-dropdown list-unstyled collapse"
+              data-bs-parent="#sidebar"
+            >
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Login</a>
+              </li>
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Register</a>
+              </li>
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Password Reset</a>
+              </li>
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">Profile</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+          <a href="#" class="sidebar-link"
+            ><i class="bi bi-box-arrow-left"></i>
+            <span>Logout</span>
+          </a>
+        </div>
+      </aside>
+
+      <!-- Open main -->
+      <div class="main">
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="/Assets/img/9solutionsLogo2.png"
+                style="width: 120px"
+                alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="bi bi-house-fill"></i
+                ></a>
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-envelope-arrow-down-fill"></i
+                ></a>
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-chat-dots-fill"></i
+                ></a>
+                <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <!-- Breadcrumb Section -->
+        <section class="mb-3 px-2">
+          <div class="card">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1 class="pt-3">Dashboard</h1>
+                </div>
+                <div class="col-sm-6">
+                  <ol class="breadcrumb float-sm-end pt-3">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container-fluid">
+            <!-- Description boxes -->
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="desc-box">
+                  <span class="desc-box-icon bg-info elevation-1 text-white"
+                    ><i class="bi bi-gear-fill"></i
+                  ></span>
+
+                  <div class="desc-box-content">
+                    <span class="desc-box-text">Performance</span>
+                    <span class="desc-box-number">
+                      10
+                      <small>%</small>
+                    </span>
+                  </div>
+                  <!-- /.desc-box-content -->
+                </div>
+                <!-- /.desc-box -->
+              </div>
+              <!-- /.col -->
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="desc-box mb-3">
+                  <span class="desc-box-icon bg-danger elevation-1 text-white"
+                    ><i class="bi bi-database-fill-down"></i
+                  ></span>
+
+                  <div class="desc-box-content">
+                    <span class="desc-box-text">Likes</span>
+                    <span class="desc-box-number">41,410</span>
+                  </div>
+                  <!-- /.desc-box-content -->
+                </div>
+                <!-- /.desc-box -->
+              </div>
+              <!-- /.col -->
+
+              <!-- fix for small devices only -->
+              <!-- <div class="clearfix hidden-md-up"></div> -->
+
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="desc-box mb-3">
+                  <span class="desc-box-icon bg-success elevation-1 text-white"
+                    ><i class="bi bi-bar-chart-fill"></i
+                  ></span>
+
+                  <div class="desc-box-content">
+                    <span class="desc-box-text">Team Members</span>
+                    <span class="desc-box-number">12</span>
+                  </div>
+                  <!-- /.desc-box-content -->
+                </div>
+                <!-- /.desc-box -->
+              </div>
+              <!-- /.col -->
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="desc-box mb-3">
+                  <span class="desc-box-icon bg-warning elevation-1 text-white"
+                    ><i class="bi bi-people-fill"></i
+                  ></span>
+
+                  <div class="desc-box-content">
+                    <span class="desc-box-text">New Members</span>
+                    <span class="desc-box-number">2,000</span>
+                  </div>
+                  <!-- /.desc-box-content -->
+                </div>
+                <!-- /.desc-box -->
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+        </section>
+        <section>
+          <div class="text-center">
+            <h1>Sidebar 9force</h1>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/Assets/js/bootstrap.bundle.js"></script>
+    <script src="/Assets/js/script.js"></script>
+  </body>
+</html>
